@@ -20,7 +20,9 @@ export class AppComponent {
         data: {
           age: 24,
           name: "Achintha"
-        }
+        },
+        width: "250px",
+        height: "200px"
       });
   }
 }
