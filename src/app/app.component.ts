@@ -15,6 +15,12 @@ export class AppComponent {
   }
 
   onOpenDialog() {
-    this.matDialog.open(InsideDialogComponent);
+    this.matDialog.open(InsideDialogComponent,
+      {
+        data: {
+          age: 24,
+          name: "Achintha"
+        }
+      });
   }
 }
